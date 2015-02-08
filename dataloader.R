@@ -39,5 +39,9 @@ house0102$Sub_metering_2<-as.double(house0102$Sub_metering_2)
 house0102$Sub_metering_3<-as.double(house0102$Sub_metering_3)
 
 # Convert Voltage from Factor to number
-house0102$Sub_metering_3<-as.double(house0102$Sub_metering_3)
+house0102$Voltage<-as.double(house0102$Voltage)
+
+# Convert Global Reactive Power from Factor to number
+house0102$Global_reactive_power<-as.double(house0102$Global_reactive_power)
+
 
