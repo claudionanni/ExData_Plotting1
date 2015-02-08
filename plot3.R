@@ -2,7 +2,7 @@
 source('dataloader.R')
 
 # Open png device
-png(filename='plot3.png')
+png(filename='plot3.png',width=480,height=480,units="px")
 
 # Make plot
 plot(y=house0102$Sub_metering_1,x=strptime(house0102$Time,format = "%Y-%m-%d %H:%M:%S"),type="l",xlab="",col="black",ylab="Energy sub metering")
